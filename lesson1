@@ -1,0 +1,16 @@
+Creating database
+Create new database with name "proba"
+Create table with name "table1" with 4 rows
+1 row - id - int - primary
+2 row - name - text - length 30
+3 row - year - int - length - 10
+4 row - points - decimal - length 0
+
+`CREATE TABLE `proba`.`table1` (`id` INT NOT NULL , `name` TEXT NOT NULL , `year` INT(10) NOT NULL , `points` DECIMAL(0) NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;`
+
+Insert option
+`INSERT INTO `table1`(`id`, `name`, `year`, `points`) VALUES ('[value-1]','[value-2]','[value-3]','[value-4]')`
+
+More insert
+`INSERT INTO `table1`(`id`, `name`, `year`, `points`) VALUES ('5','Gosho','18','13');
+INSERT INTO `table1`(`id`, `points`, `year`, `name`) VALUES ('1','22','23','Pesho');`
